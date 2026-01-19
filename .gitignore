@@ -1,0 +1,22 @@
+# === secrets ===
+.env
+*.env
+*.json
+.streamlit/secrets.toml
+
+# === virtualenv ===
+.venv/
+.venv*/
+venv/
+venv*/
+venv311/
+
+# === python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === misc / OS ===
+.DS_Store
+Thumbs.db
