@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-# Analytics Console — GA4 Streamlit (single file, secrets-only)
-# Requires Streamlit Secrets:
-#   GA4_PROPERTY_ID="..."
-#   [gcp_service_account] ... (service account fields)
-# Optional:
-#   APP_PASSWORD="..."
-#   DASH_LOGO="assets/logo.svg"
-#   SIDEBAR_LOGO="assets/internews.svg"
-
 import os
 from pathlib import Path
 from datetime import date, timedelta
@@ -435,11 +425,7 @@ with tab1:
             "Вставьте URL или пути (по одному в строке)",
             height=200,
             placeholder=(
-                "https://www.studio-l.online/economie/...\n"
-                "www.studio-l.online/economie/...\n"
-                "studio-l.online/economie/...\n"
-                "/economie/...\n"
-                "economie/..."
+                "https://www.website.online/...\n"
             ),
         )
     with cB:
